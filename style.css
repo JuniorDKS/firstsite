@@ -1,0 +1,359 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display:block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description{
+  margin-left: 9px;
+}
+
+.menu-logo{
+  display: flex;
+  align-items:center;
+}
+
+.avatar {
+  width: 57px;
+height: 57px;
+background:url('https://pp.userapi.com/c845323/v845323029/1437fe/GR2RVcezFvA.jpg');
+  background-size: 100%;
+border-radius: 50%;
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+}
+
+.menu_list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+
+.menu-button{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c; 
+  padding: 13px 22px;
+}
+
+.menu_list a {
+text-decoration:none; 
+display: inline-block; 
+line-height: 1; 
+color:#2b2a2c;
+position:relative;
+}
+
+.menu_list a:after {
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #2b2a2c; 
+    transition: width 0.4s ease-in-out; 
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%)
+}
+
+.menu_list a:hover:after,
+.menu_list a:focus:after {
+    width: 100%;
+}
+
+
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://wmpics.pics/dm-RR3X.png') no-repeat right ;
+  background-size: 30%;
+}
+
+.hero-subtitle {
+  font-size: 32px;
+}
+
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.hero-social {
+  margin-top: 20px;
+}
+
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+
+.behance-bg {
+  background-color: #1869ff;
+}
+
+.facebook-bg {
+  background-color: #3a5898;
+}
+
+.instagram-bg {
+  background-color: #13578a;
+}
+
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+
+}
+.projects {
+  padding: 97px 0;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow:hidden;
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.project-card_image {
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.corporate {
+  background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01be8c46850657.5866ac851a723.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page {
+  background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01be8c46850657.5866ac851a723.jpg')  
+    center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-project {
+  background: url('https://wmpics.pics/dm-SZAK.jpg')  center;
+  background-size: 110%;
+}
+
+.third-project {
+  background: url('https://wmpics.pics/dm-LXSD9XL3.png') center;
+  background-size: 110%;
+}
+
+.fourth-project {
+  background: url('https://tech-touch.ru/wp-content/uploads/2015/08/ofitsialnyiy-sayt-apple-preterpel-sereznuyu-rekonstruktsiyu-1.png') center;
+  background-size: 110%;
+}
+
+.fifth-project {
+  background: url('http://coolinet.ru/wp-content/uploads/2016/09/bandicam-2016-09-27-13-10-49-391-Копировать.jpg') center;
+  background-size: 110%;
+}
+
+.sixth-project {
+  background: url('https://blog.shopperapproved.com/wp-content/uploads/2016/12/Depositphotos_64741829_original2-1024x683.jpg') center;
+  background-size: 125%;
+}
+
+.seventh-project {
+  background: url('https://5bucks.ru/wp-content/uploads/2018/11/yutub.png') center;
+  background-size: 125%;
+}
+
+.eighth-project {
+  background: url('https://im0-tub-ru.yandex.net/i?id=7e40828b602e85b1a20dbb8307acdf56&n=13') center;
+  background-size: 100%;
+}
+
+.nineth-project {
+  background: url('https://yt3.ggpht.com/a-/AN66SAyxYIpdwBgEzMXmYnSPoBbTXYDPwO9Ft6xcsg=s900-mo-c-c0xffffffff-rj-k-no') center;
+  background-size: 125%;
+}
+
+
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+
+.project-card_info{
+ padding: 19px 13px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+  
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+  
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display:inline-block;
+  margin-right: 30px;
+}
+
+.footer-button {
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+
+@media (max-width:1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width:992px) {
+  .container {
+    width: 760;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width:768px) {
+  .description_small{
+    font-size: 10px;
+  }
+  .menu_list {
+    display: none;
+  }
+  .container {
+    width: 95%;
+  }
+  .hero {
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+  
+}
+
